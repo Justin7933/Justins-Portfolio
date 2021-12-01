@@ -19,3 +19,4 @@ the viewer can see my work/projects
  *Here* is the Deployed Portfolio: https://hardcore-pasteur-a5cac6.netlify.app/
   
 ## screenshot
+![reactphoto](https://user-images.githubusercontent.com/84878209/144316074-2ae0db83-68dc-4819-937e-ce5a955080ef.png)
