@@ -1,5 +1,5 @@
 # ReactPortfolio
-This tracker is to allow you to track your fitness workouts all in one application. Using the mongodb you can save the data in a workout list. You can add as many as you want. Follow the instructions on the list and fill in what's needed.<p>
+Portfolio using React. There is a nav bar that allows you to naviagte to each part of the page. A project section with 4 projects available to view. A contact section with my location and contact information. 
 ## Tools used 
   <ul>
     <li><strong>Node.js</strong></li>
