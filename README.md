@@ -14,10 +14,10 @@ This tracker is to allow you to track your fitness workouts all in one applicati
 As a User
 
 ### I want to
-  Create a fitness tracker
+  view my portfolio
 
 ### So that 
-I can see my fitness workouts in one place
+the viewer can see my work/projects
 
 ## links 
  *Here* is the Deployed Portfolio: https://hardcore-pasteur-a5cac6.netlify.app/
