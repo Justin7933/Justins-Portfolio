@@ -1,60 +1,60 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Group Project",
+    subtitle: "Chorus",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "With a group of 4 we made a website where you can login and talk about your interest. This was made via mvc structure and had a mySQL database.",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://ancient-sierra-36719.herokuapp.com/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Blog",
+    subtitle: "Tech Blog",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This project was a tech blog. Using mvc strucutre to make it! Handlebars was a big use in this project.",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Justin7933/techblog14",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Dashboard",
+    subtitle: "Weather Dashboard",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Here is a weather-dashboard that was made by me. You can search any city and the data is pulled from openweatherapi.",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://justin7933.github.io/WeatherDashboard/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Group Project",
+    subtitle: "Symphony",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This project is currently in the making stay tuned for further updates!",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Justin7933/Symphony",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "In the future I will post testimonials of my co workers/ clients.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    name: "John Doe",
+    company: "Company",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "In the future I will post testimonials of my co workers/ clients.",
     image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    name: "John Doe",
+    company: "Company",
   },
 ];
 
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
+  "MongoDB",
   "Node",
   "GraphQL",
-  "Material UI",
+  "MySQL",
 ];
