@@ -3,12 +3,8 @@ This tracker is to allow you to track your fitness workouts all in one applicati
 ## Tools used 
   <ul>
     <li><strong>Node.js</strong></li>
-    <li><strong>Express</strong></li>
-    <li><strong>nodemon</strong></li>
-    <li><strong>mongoose</strong></li>
-    <li><strong>Dotenv</strong></li>
-    <li><strong>mongodb</strong></li>
-    <li><strong>morgan</strong></li>
+    <li><strong>React</strong></li>
+    <li><strong>Tailwind</strong></li>
 </ul><p>
 ## User-Story <p>
 As a User
