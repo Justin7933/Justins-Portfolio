@@ -12,7 +12,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Below you can find a few projects that I have made with myself , or a few group members during this UNH Bootcamp.
+            Below you can find a few projects that I have made with myself , or a few group members!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

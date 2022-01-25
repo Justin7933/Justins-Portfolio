@@ -14,14 +14,14 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="https://github.com/Justin7933"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              GitHub
             </a>
             <a
-              href="#projects"
+              href="https://www.linkedin.com/in/justin-damon-771503204/"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              PROJECTS!
+              LinkedIn
             </a>
           </div>
         </div>
