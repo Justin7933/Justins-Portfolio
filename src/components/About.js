@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />I love to code!
           </h1>
           <p className="mb-8 leading-relaxed">
-            In 2020 I got my associates degree in business management and decided to further my knowledge by taking a bootcamp course for software development at UNH. Here is some of my projects below!
+            In 2020 I got my associates degree in business management and decided to further my knowledge by taking a bootcamp course for software development at UNH. I am experienced in object-oriented programming; developing, testing and debugging code; designing interfaces; and administering systems and networks. I quickly can learn and master new technologies and successfully work in both team and self-directed settings. 
           </p>
           <div className="flex justify-center">
             <a
