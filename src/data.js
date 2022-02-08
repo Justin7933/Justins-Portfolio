@@ -8,12 +8,12 @@ export const projects = [
     link: "https://ancient-sierra-36719.herokuapp.com/",
   },
   {
-    title: "Blog",
-    subtitle: "Tech Blog",
+    title: "Social Media",
+    subtitle: "Social App",
     description:
-      "This project was a tech blog. Using mvc strucutre to make it! Handlebars was a big use in this project.",
+      "Stay Tuned for the social app!",
     image: "./project-2.gif",
-    link: "https://github.com/Justin7933/techblog14",
+    link: "https://github.com/Justin7933/social-app",
   },
   {
     title: "Dashboard",
