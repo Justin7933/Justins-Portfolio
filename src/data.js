@@ -27,9 +27,9 @@ export const projects = [
     title: "Group Project",
     subtitle: "Symphony",
     description:
-      "This project is currently in the making stay tuned for further updates!",
+      "Using React & MongoDB a group of four we created a tech forum website. You have to log in to add a discussion!",
     image: "./GIF MakerSymphony.gif",
-    link: "https://github.com/Justin7933/Symphony",
+    link: "https://radiant-hamlet-57789.herokuapp.com/",
   },
 ];
 
