@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Chorus",
     description:
       "With a group of 4 we made a website where you can login and talk about your interest. This was made via mvc structure and had a mySQL database.",
-    image: "./project-1.gif",
+    image: "./GIF Maker.gif",
     link: "https://ancient-sierra-36719.herokuapp.com/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Weather Dashboard",
     description:
       "Here is a weather-dashboard that was made by me. You can search any city and the data is pulled from openweatherapi.",
-    image: "./project-3.gif",
+    image: "./GIF MakerWeather.gif",
     link: "https://justin7933.github.io/WeatherDashboard/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Symphony",
     description:
       "This project is currently in the making stay tuned for further updates!",
-    image: "./project-4.gif",
+    image: "./GIF MakerSymphony.gif",
     link: "https://github.com/Justin7933/Symphony",
   },
 ];
