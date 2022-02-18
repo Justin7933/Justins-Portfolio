@@ -37,6 +37,11 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
+              <a
+              href={project.window}
+              className="ml-4 mt-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 hover:text-white rounded text-lg">
+              Repository
+            </a>
             </a>
           ))}
         </div>
