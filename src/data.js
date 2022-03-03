@@ -37,23 +37,6 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "In the future I will post testimonials of my co workers/ clients.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "John Doe",
-    company: "Company",
-  },
-  {
-    quote:
-      "In the future I will post testimonials of my co workers/ clients.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "John Doe",
-    company: "Company",
-  },
-];
-
 export const skills = [
   "JavaScript",
   "React",
