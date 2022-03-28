@@ -1,28 +1,33 @@
 import React from "react";
+import {useState} from 'react';
+import {send} from 'emailjs-com';
 
 export default function Contact() {
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    message: '',
+    reply_to: '',
+  });
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
-
-  function handleSubmit(e) {
+  const onSubmit = (e) => {
     e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-  }
+    send(
+      'service_zqr2ng6',
+      'template_9s97zv2',
+      toSend,
+      'iiCpG0FwyGqLh2qS0'
+    )
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
 
   return (
     <section id="contact" className="relative">
@@ -54,7 +59,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                justindamon84@gmail.com
+                damon.justin@outlook.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
@@ -66,7 +71,7 @@ export default function Contact() {
         <form
           netlify
           name="contact"
-          onSubmit={handleSubmit}
+          onSubmit={onSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
@@ -80,10 +85,10 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              id="name"
-              name="name"
+              name="from_name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setName(e.target.value)}
+              value={toSend.from_name}
+              onChange={handleChange}
             />
           </div>
           <div className="relative mb-4">
@@ -92,10 +97,10 @@ export default function Contact() {
             </label>
             <input
               type="email"
-              id="email"
-              name="email"
+              name="reply_to"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setEmail(e.target.value)}
+              value={toSend.reply_to}
+              onChange={handleChange}
             />
           </div>
           <div className="relative mb-4">
@@ -105,10 +110,10 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              id="message"
               name="message"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setMessage(e.target.value)}
+              value={toSend.message}
+              onChange={handleChange}
             />
           </div>
           <button
